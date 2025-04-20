@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Circus Ace';
+    src: url('fonts/Circus\ Age.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Video Background Styles */
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.video-container video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* This (0.5) number can adjust for transparency */
+}
+
+/* If video fails */
+.video-container img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* Base Styles */
+body {
+    font-family: 'Times New Roman', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #2d2d2d;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.navbar a {
+    color: #ff6b6b;
+    text-decoration: none;
+    margin: 0 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ff3838;
+}
+
+/* Sections */
+section {
+    padding: 2rem 0;
+    margin-top: 60px;
+}
+
+.alt-section {
+    background-color: #262626;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+}
+
+.section-title {
+    color: #ff6b6b;
+    border-bottom: 2px solid #ff3838;
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+/* Typography */
+.container header h1 {
+    font-family: 'Circus Ace', sans-serif;
+    color: #ff3838;
+    font-size: 6rem;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 4rem 0 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    text-transform: uppercase; 
+    font-synthesis: none;
+}
+
+/* Original h2 style */
+h2 {
+    color: #ff6b6b;
+    margin-bottom: 3rem;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    background-color: #ff3838;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 2rem 0;
+}
+
+.btn:hover {
+    background-color: #ff1a1a;
+}
+
+/* Blockquotes */
+blockquote {
+    border-left: 3px solid #ff6b6b;
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+}
+
+cite {
+    display: block;
+    margin-top: 0.5rem;
+    color: #888;
+}
