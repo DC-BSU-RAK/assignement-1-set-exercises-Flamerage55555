@@ -1,0 +1,102 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 20px;
+    background-color: #0d0d0d; /* Dark background for a cyberpunk feel */
+    color: #e0e0e0; /* Light gray text for contrast */
+}
+
+h1, h2, h3 {
+    color: #00ffff; /* Neon cyan for headings */
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff; /* Glowing effect */
+}
+
+h1 {
+    font-size: 2.8em;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #ff00ff; /* Neon magenta underline */
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 2.2em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #ff00ff; /* Neon magenta for subheadings */
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff; /* Glowing effect */
+}
+
+h3 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    color: #00ff00; /* Neon green for smaller headings */
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00; /* Glowing effect */
+}
+
+p {
+    margin-bottom: 20px;
+    color: #b3b3b3; /* Muted gray for paragraph text */
+}
+
+code {
+    background-color: #1a1a1a; /* Dark gray background for code */
+    color: #ff00ff; /* Neon magenta for code text */
+    padding: 3px 6px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.95em;
+    text-shadow: 0 0 5px #ff00ff; /* Subtle glow for code text */
+}
+
+pre {
+    background-color: #1a1a1a; /* Matches code background */
+    color: #00ffff; /* Neon cyan for preformatted text */
+    padding: 15px;
+    border-radius: 6px;
+    overflow-x: auto;
+    box-shadow: 0 0 15px #00ffff; /* Glowing effect for pre block */
+    font-size: 0.95em;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #1a1a1a; /* Dark gray for contrast */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #ff00ff; /* Neon magenta glow */
+    border: 1px solid #333; /* Subtle border for definition */
+}
+
+/* Additional Styling for Links */
+a {
+    color: #00ffff; /* Neon cyan for links */
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0 0 10px #00ffff; /* Glowing effect */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff00ff; /* Neon magenta on hover */
+    text-shadow: 0 0 15px #ff00ff; /* Stronger glow on hover */
+}
+
+/* Button Styling */
+button {
+    background-color: #00ff00; /* Neon green button background */
+    color: #0d0d0d; /* Dark text for contrast */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 10px #00ff00; /* Glowing effect */
+}
+
+button:hover {
+    background-color: #ff00ff; /* Neon magenta on hover */
+    box-shadow: 0 0 15px #ff00ff; /* Stronger glow on hover */
+}
