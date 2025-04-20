@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  background-color: #ffffff; /* Light background for the body */
+}
+
+header {
+  background-color: #b43f22;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-family: Tahoma, sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ffffff; /* White background for the main content */
+}
+
+.welcome {
+  flex: 2;
+  margin-right: 20px;
+  background-color: #e8eaf6; /* Light blue background for the welcome section */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.welcome h2 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.welcome img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.line-up {
+  flex: 1;
+  background-color: #172d67;
+  color: #FFFFFF;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.line-up h2 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.line-up ul {
+  list-style: none;
+  padding: 0;
+}
+
+.line-up ul li {
+  margin-bottom: 10px;
+}
+
+.line-up .images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.line-up .images img {
+  width: 48%;
+  height: auto;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #1dddcd;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 10px 0;
+}
