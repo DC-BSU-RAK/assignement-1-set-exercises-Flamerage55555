@@ -1,0 +1,90 @@
+/* This file contains the styles for the petrol calculator project */
+
+/* Basic reset for margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Add a background image to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('ENOC.jpg'); /* Replace 'background.jpg' with the path to your image */
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    color: #333; /* Dark text for readability */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+/* General styling for the container */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.9); /* Add a semi-transparent white background */
+}
+
+/* Styling for headings */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Styling for labels and inputs */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Focus effect for input fields */
+input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Styling for the button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the total cost paragraph */
+#totalCost {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
