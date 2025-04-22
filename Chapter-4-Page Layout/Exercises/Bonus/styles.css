@@ -1,4 +1,4 @@
-/* General Reset */
+/* Resetting default styles for the entire page */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -9,7 +9,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Header */
+/* Styling the header section */
 header {
     background: linear-gradient(90deg, #ff99cc, #ff66b2); /* Pink gradient */
     color: #fff;
@@ -38,7 +38,7 @@ header::after {
     border-radius: 3px;
 }
 
-/* Navigation Menu */
+/* Styling the navigation menu */
 nav {
     background: #ffe6f2;
     padding: 1rem 0;
@@ -71,7 +71,7 @@ nav ul li a:hover {
     transform: scale(1.1);
 }
 
-/* Main Content */
+/* Styling the main content area */
 main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -120,7 +120,7 @@ main {
     transform: translateX(10px);
 }
 
-/* Footer */
+/* Styling the footer section */
 footer {
     background: #ff99cc;
     color: #fff;
@@ -147,7 +147,7 @@ footer::before {
     border-radius: 2px;
 }
 
-/* Animations */
+/* Adding animations for dynamic effects */
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
         transform: translateY(0);

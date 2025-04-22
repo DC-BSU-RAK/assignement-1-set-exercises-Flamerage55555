@@ -5,23 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOP-G</title>
     <style>
+        /* Center the content both vertically and horizontally */
         body {
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
+            height: 100vh; /* Full viewport height */
+            margin: 0; /* Remove default margin */
+            background-color: #f0f0f0; /* Light gray background for a clean look */
         }
+
+        /* Ensure the video scales properly within the viewport */
         video {
-            max-width: 100%;
-            max-height: 100%;
+            max-width: 100%; /* Video won't exceed the width of the viewport */
+            max-height: 100%; /* Video won't exceed the height of the viewport */
         }
     </style>
 </head>
 <body>
+    <!-- Video element with autoplay, loop, and muted attributes -->
     <video loop autoplay muted controls poster="Andrew what.jpeg">
+        <!-- Source for the video file -->
         <source src="Andrew Tate.mp4" type="video/mp4">
+        <!-- Fallback message for browsers that don't support the video element -->
+        Your browser does not support the video tag.
     </video>
 </body>
 </html>
